@@ -1,0 +1,135 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  font-size: 20px;
+  font-color: blue;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(227,0,1);
+
+}
+
+.slider h1 {
+  color: blue;
+  font-family: Slabo sans-serif;
+}
+
+#logo {
+  float: left;
+  position: fixed;
+  padding : 15px 0px 0px 20px;
+
+}
+
+nav ul
+{
+   font-size: 20px;
+   float: right;
+   word-spacing: 15px;
+   padding-right: 20px;
+   text-transform: uppercase;
+   color: white;
+  }
+
+.menu:link {
+  background-color: none;
+  text-decoration: none;
+
+}
+
+.menu:link:visited {
+  background-color: orange;
+
+}
+
+.menu:link:hover {
+  background-color: blue;
+
+}
+
+.menu:link:active {
+  background-color: yellow;
+}
+
+nav li
+{
+  display: inline-block;
+}
+
+.slider {
+  padding: 90px 0px 0px 0px;
+  text-align: center;
+  text-color: blue;
+}
+
+#kata-slider {
+  text-color: red;
+}
+
+.top-product h1 {
+  text-align: center;
+  color: red;
+}
+
+.top-product {
+  padding: 100px 20px 520px 20px;
+}
+
+.product {
+  display: inline-block;
+  float: right;
+  padding-top: 25px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.product a {
+  text-decoration: none;
+  font-size: 22px;
+  color: red;
+}
+
+.product a:hover {
+  background-color: blue;
+}
+
+#product2-img {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+#btn2 {
+  margin-left: 180px;
+}
+
+.product button {
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  display: block;
+  font-size: 16px;
+  transition: all 0.8s ease 0s;
+  margin: 15px 0px 2px 120px;
+  background-color: rgb(122,199,7);
+}
+
+
+button:hover {
+  background-color: red;
+}
+
+footer {
+  height: 70px;
+  background-color: rgb(227,0,1);
+  width: 100%;
+  padding-top: 10px;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  word-spacing: 5px;
+}
