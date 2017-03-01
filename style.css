@@ -4,12 +4,14 @@ html, body {
 }
 .header {
   font-size: 20px;
-  font-color: blue;
   height: 80px;
   width: 100%;
   position: fixed;
   background-color: rgb(227,0,1);
+}
 
+.header a {
+  color: white;
 }
 
 .slider h1 {
@@ -75,16 +77,16 @@ nav li
 }
 
 .top-product {
-  padding: 100px 20px 520px 20px;
+  padding: 100px 20px 180px 20px;
 }
 
 .product {
   display: inline-block;
-  float: right;
+  float: center;
   padding-top: 25px;
-  padding-right: 10px;
   text-align: center;
-}
+  padding : 0px 20px 0px 20px;
+} 
 
 .product a {
   text-decoration: none;
@@ -96,10 +98,11 @@ nav li
   background-color: blue;
 }
 
+
 #product2-img {
   padding-right: 60px;
   padding-left: 60px;
-}
+} 
 
 #btn2 {
   margin-left: 180px;
